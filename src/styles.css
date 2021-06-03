@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+  margin: 0 auto;
+  width: 768px;
+}
+
+.headLine {
+  text-align: left;
+  margin: 20px 0;
+}
+
+.notiSection {
+  width: 100%;
+  border-top: 1px solid #f3f3f3;
+  border-right: 1px solid #f3f3f3;
+  border-bottom: 1px solid #f3f3f3;
+  margin: 10px 0;
+  padding: 10px 5px;
+}
+
+.notiSection > span {
+  margin: 10px 5px 0px 10px;
+  color: #b0a8a8;
+}
+
+.notiSection > h4 {
+  margin: 10px 5px 0px 10px;
+  color: #320c2c;
+}
+
+.notiSection.red {
+  border-left: 3px solid red;
+}
+
+.notiSection.yellow {
+  border-left: 3px solid yellow;
+}
+.notiSection.green {
+  border-left: 3px solid green;
+}
+
+.filterSction {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px 20px;
+}
